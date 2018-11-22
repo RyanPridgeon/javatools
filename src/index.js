@@ -11,7 +11,7 @@ class CopyConstructorBuilder extends React.Component {
     super(props);
     this.state = {
       input: "", 
-      result: CopyConstructor("faesrfswe")
+      result: "result"
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -33,7 +33,7 @@ class CopyConstructorBuilder extends React.Component {
   }
 
   build() {
-    this.setState({result: this.state.input.toUpperCase()});
+    this.setState({result: CopyConstructor(this.state.input)});
   }
 }
 

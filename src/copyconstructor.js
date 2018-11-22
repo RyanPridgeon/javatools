@@ -1,5 +1,8 @@
 function CopyConstructor(input) {
-    return "poop";
+
+    console.log("Hello");
+    return "123";
+    
 }
 
 export default CopyConstructor;
